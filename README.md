@@ -1,8 +1,12 @@
 # py-env
 
+> A simple, flexible Python starter kit for working with LLMs using Conda + Ollama or OpenAI.
+
 A portable, reproducible Python environment for working with LLMs (Large Language Models) using both local and cloud-based providers like **Ollama** and **OpenAI**.
 
 ---
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vedanta/py-env/HEAD?labpath=llm_demo.ipynb)
 
 ## 📦 Features
 
@@ -15,7 +19,21 @@ A portable, reproducible Python environment for working with LLMs (Large Languag
 
 ---
 
+## 🚀 Run in Binder
+
+You can launch this project directly in the browser using Binder — no installation required.
+
+Click the badge below to open the interactive notebook:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vedanta/py-env/HEAD?labpath=llm_demo.ipynb)
+
+---
+
 ## 🛠️ Setup Guide
+
+> 💻 You can also run this project instantly in your browser using [Binder](https://mybinder.org/v2/gh/vedanta/py-env/HEAD?labpath=llm_demo.ipynb). This requires no installation.
+
+To run locally:
 
 ### 1. Clone or Download
 
@@ -118,8 +136,13 @@ jupyter notebook llm_demo.ipynb
 
 ## 📁 Folder Structure
 
+Includes Binder setup for zero-install cloud execution:
+
 ```
 py-env/
+├── .binder/             # Binder environment and build scripts
+│   ├── environment.yml
+│   └── postBuild
 ├── .env.sample         # Template for environment variables
 ├── .env.minimal        # Minimal config for Ollama-only use
 ├── .gitignore          # Files and folders to exclude from Git
