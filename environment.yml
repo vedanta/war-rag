@@ -1,0 +1,9 @@
+name: py-env
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - -r requirements.txt
+channels:
+  - defaults
+prefix: /opt/anaconda3/envs/py-env

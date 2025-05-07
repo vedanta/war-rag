@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda environment directories (local)
+env/
+.conda/
+.venv/
+venv/
+env.bak/
+envs/
+*.conda
+
+# Environment YAML and pip lock files (keep if you track them!)
+# If you want to ignore auto-generated ones, uncomment below
+# environment.lock.yml
+# requirements.lock.txt
+
+# VS Code / IDE config
+.vscode/
+.idea/
+
+# Jupyter notebook checkpoints and metadata
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*.nbmetadata
+
+# Log files and runtime data
+*.log
+*.out
+*.err
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled Cython or C extensions
+*.so
+*.pyd
+*.pyo
+*.dll
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache/
+nosetests.xml
+pytest_cache/
+junit-*.xml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Misc
+*.bak
+*.swp
+*.swo
+*.tmp
+*.orig
+
+# .env
+.env
