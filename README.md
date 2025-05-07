@@ -19,27 +19,17 @@ A portable, reproducible Python environment for working with LLMs (Large Languag
 
 ---
 
-## 🚀 Run in Binder
+## 🚫 Binder Limitations
 
-You can launch this project directly in the browser using Binder — no installation required.
+Binder currently **does not support Ollama**, which is required to run this project locally with models like `orca-mini`.
 
-Click the badge below to open the interactive notebook:
+As a result, while the notebook may launch, it will not produce valid LLM responses unless reconfigured to use OpenAI with a valid API key.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vedanta/py-env/HEAD?labpath=llm_demo.ipynb)
-
-> ⚠️ **Note:** If the Binder build fails, make sure your `.binder/` folder includes both `environment.yml` and a compatible `requirements.txt` or remove `postBuild` if it's unnecessary. This ensures Binder can install both Conda and pip packages properly.
-
-You can launch this project directly in the browser using Binder — no installation required.
-
-Click the badge below to open the interactive notebook:
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vedanta/py-env/HEAD?labpath=llm_demo.ipynb)
+> ✅ To run this project fully, clone the repo and follow the local setup instructions below.
 
 ---
 
 ## 🛠️ Setup Guide
-
-> 💻 You can also run this project instantly in your browser using [Binder](https://mybinder.org/v2/gh/vedanta/py-env/HEAD?labpath=llm_demo.ipynb). This requires no installation.
 
 To run locally:
 
