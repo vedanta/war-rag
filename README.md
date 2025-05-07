@@ -27,6 +27,14 @@ Click the badge below to open the interactive notebook:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vedanta/py-env/HEAD?labpath=llm_demo.ipynb)
 
+> ⚠️ **Note:** If the Binder build fails, make sure your `.binder/` folder includes both `environment.yml` and a compatible `requirements.txt` or remove `postBuild` if it's unnecessary. This ensures Binder can install both Conda and pip packages properly.
+
+You can launch this project directly in the browser using Binder — no installation required.
+
+Click the badge below to open the interactive notebook:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vedanta/py-env/HEAD?labpath=llm_demo.ipynb)
+
 ---
 
 ## 🛠️ Setup Guide
