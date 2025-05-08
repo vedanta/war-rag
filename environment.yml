@@ -1,4 +1,4 @@
-name: py-env
+name: war-rag
 dependencies:
   - python=3.10
   - pip
@@ -6,4 +6,3 @@ dependencies:
     - -r requirements.txt
 channels:
   - defaults
-prefix: /opt/anaconda3/envs/py-env
